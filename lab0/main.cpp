@@ -1,38 +1,36 @@
+#include "TextFile.h"
+#include "CSV.h"
+#include "WordCounter.h"
+
 #include <iostream>
+#include <string>
+#include <list>
 #include <locale>
-
-#include "Handler.h"
-#include "InputReader.h"
-#include "OutputWriter.h"
-
-#define EXIT_SUCCESS 0
-#define EXIT_FAILURE 1
-#define CORRECT_ARGUMENTS_COUNT 3
 
 using namespace std;
 
-int main(int argc, char **argv) {
-  setlocale(LC_ALL, "Russian");
 
-  if (argc != CORRECT_ARGUMENTS_COUNT) {
-    cout << "Use in console: word_counter input.txt output.csv" << endl;
-    return EXIT_FAILURE;
-  }
+int main(int argc, char* argv[]) { // argc - колво агруметов, argv - массив строк с аргументами
+	setlocale(LC_ALL, "Russian");
 
-  InputReader input(argv[1]);
-  input.OpenInputFile();
-  input.GetWordsFromFile();
+	if (argc < 2) {
+		cout << "Usage: ./lab0b Text.txt" << endl;
+		return 1;
+	}
 
-  Handler wordCounter(input.words);
-  wordCounter.GetWordFrequency();
-  wordCounter.MakeSortedList();
+	string Text = argv[1];
 
-  OutputWriter output(argv[2], wordCounter.words, wordCounter.sortedWords);
-  output.CreateOutputFile();
-  output.PrintAnswer();
+	CSV csv;
+	TextFile textFile(Text);
 
-  input.CloseInputFile();
-  output.CloseOutputFile();
+	list<wstring> words = textFile.readText();
 
-  return EXIT_SUCCESS;
+	list<pair<wstring, pair<int, double>>> data;
+	
+	WordCounter counter;
+	counter.processText(words, data);
+
+	csv.writeToFile("output.csv", data);
+
+	return 0;
 }

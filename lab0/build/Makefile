@@ -129,77 +129,77 @@ lab0b/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/build
 .PHONY : lab0b/fast
 
-Handler.o: Handler.cpp.o
-.PHONY : Handler.o
+CSV.o: CSV.cpp.o
+.PHONY : CSV.o
 
 # target to build an object file
-Handler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/Handler.cpp.o
-.PHONY : Handler.cpp.o
+CSV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/CSV.cpp.o
+.PHONY : CSV.cpp.o
 
-Handler.i: Handler.cpp.i
-.PHONY : Handler.i
+CSV.i: CSV.cpp.i
+.PHONY : CSV.i
 
 # target to preprocess a source file
-Handler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/Handler.cpp.i
-.PHONY : Handler.cpp.i
+CSV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/CSV.cpp.i
+.PHONY : CSV.cpp.i
 
-Handler.s: Handler.cpp.s
-.PHONY : Handler.s
+CSV.s: CSV.cpp.s
+.PHONY : CSV.s
 
 # target to generate assembly for a file
-Handler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/Handler.cpp.s
-.PHONY : Handler.cpp.s
+CSV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/CSV.cpp.s
+.PHONY : CSV.cpp.s
 
-InputReader.o: InputReader.cpp.o
-.PHONY : InputReader.o
+TextFile.o: TextFile.cpp.o
+.PHONY : TextFile.o
 
 # target to build an object file
-InputReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/InputReader.cpp.o
-.PHONY : InputReader.cpp.o
+TextFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/TextFile.cpp.o
+.PHONY : TextFile.cpp.o
 
-InputReader.i: InputReader.cpp.i
-.PHONY : InputReader.i
+TextFile.i: TextFile.cpp.i
+.PHONY : TextFile.i
 
 # target to preprocess a source file
-InputReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/InputReader.cpp.i
-.PHONY : InputReader.cpp.i
+TextFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/TextFile.cpp.i
+.PHONY : TextFile.cpp.i
 
-InputReader.s: InputReader.cpp.s
-.PHONY : InputReader.s
+TextFile.s: TextFile.cpp.s
+.PHONY : TextFile.s
 
 # target to generate assembly for a file
-InputReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/InputReader.cpp.s
-.PHONY : InputReader.cpp.s
+TextFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/TextFile.cpp.s
+.PHONY : TextFile.cpp.s
 
-OutputWriter.o: OutputWriter.cpp.o
-.PHONY : OutputWriter.o
+WordCounter.o: WordCounter.cpp.o
+.PHONY : WordCounter.o
 
 # target to build an object file
-OutputWriter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/OutputWriter.cpp.o
-.PHONY : OutputWriter.cpp.o
+WordCounter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/WordCounter.cpp.o
+.PHONY : WordCounter.cpp.o
 
-OutputWriter.i: OutputWriter.cpp.i
-.PHONY : OutputWriter.i
+WordCounter.i: WordCounter.cpp.i
+.PHONY : WordCounter.i
 
 # target to preprocess a source file
-OutputWriter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/OutputWriter.cpp.i
-.PHONY : OutputWriter.cpp.i
+WordCounter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/WordCounter.cpp.i
+.PHONY : WordCounter.cpp.i
 
-OutputWriter.s: OutputWriter.cpp.s
-.PHONY : OutputWriter.s
+WordCounter.s: WordCounter.cpp.s
+.PHONY : WordCounter.s
 
 # target to generate assembly for a file
-OutputWriter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/OutputWriter.cpp.s
-.PHONY : OutputWriter.cpp.s
+WordCounter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab0b.dir/build.make CMakeFiles/lab0b.dir/WordCounter.cpp.s
+.PHONY : WordCounter.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -234,15 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab0b"
-	@echo "... Handler.o"
-	@echo "... Handler.i"
-	@echo "... Handler.s"
-	@echo "... InputReader.o"
-	@echo "... InputReader.i"
-	@echo "... InputReader.s"
-	@echo "... OutputWriter.o"
-	@echo "... OutputWriter.i"
-	@echo "... OutputWriter.s"
+	@echo "... CSV.o"
+	@echo "... CSV.i"
+	@echo "... CSV.s"
+	@echo "... TextFile.o"
+	@echo "... TextFile.i"
+	@echo "... TextFile.s"
+	@echo "... WordCounter.o"
+	@echo "... WordCounter.i"
+	@echo "... WordCounter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

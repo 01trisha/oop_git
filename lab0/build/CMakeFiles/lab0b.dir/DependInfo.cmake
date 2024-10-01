@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/Handler.cpp" "CMakeFiles/lab0b.dir/Handler.cpp.o" "gcc" "CMakeFiles/lab0b.dir/Handler.cpp.o.d"
-  "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/InputReader.cpp" "CMakeFiles/lab0b.dir/InputReader.cpp.o" "gcc" "CMakeFiles/lab0b.dir/InputReader.cpp.o.d"
-  "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/OutputWriter.cpp" "CMakeFiles/lab0b.dir/OutputWriter.cpp.o" "gcc" "CMakeFiles/lab0b.dir/OutputWriter.cpp.o.d"
+  "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp" "CMakeFiles/lab0b.dir/CSV.cpp.o" "gcc" "CMakeFiles/lab0b.dir/CSV.cpp.o.d"
+  "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp" "CMakeFiles/lab0b.dir/TextFile.cpp.o" "gcc" "CMakeFiles/lab0b.dir/TextFile.cpp.o.d"
+  "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp" "CMakeFiles/lab0b.dir/WordCounter.cpp.o" "gcc" "CMakeFiles/lab0b.dir/WordCounter.cpp.o.d"
   "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp" "CMakeFiles/lab0b.dir/main.cpp.o" "gcc" "CMakeFiles/lab0b.dir/main.cpp.o.d"
   )
 

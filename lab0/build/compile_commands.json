@@ -1,26 +1,26 @@
 [
 {
   "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/lab0b.dir/main.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/lab0b.dir/CSV.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp",
+  "output": "CMakeFiles/lab0b.dir/CSV.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/lab0b.dir/TextFile.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp",
+  "output": "CMakeFiles/lab0b.dir/TextFile.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/lab0b.dir/WordCounter.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp",
+  "output": "CMakeFiles/lab0b.dir/WordCounter.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/lab0b.dir/main.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp",
   "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp",
   "output": "CMakeFiles/lab0b.dir/main.cpp.o"
-},
-{
-  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/lab0b.dir/Handler.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/Handler.cpp",
-  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/Handler.cpp",
-  "output": "CMakeFiles/lab0b.dir/Handler.cpp.o"
-},
-{
-  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/lab0b.dir/InputReader.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/InputReader.cpp",
-  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/InputReader.cpp",
-  "output": "CMakeFiles/lab0b.dir/InputReader.cpp.o"
-},
-{
-  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/lab0b.dir/OutputWriter.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/OutputWriter.cpp",
-  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab0/OutputWriter.cpp",
-  "output": "CMakeFiles/lab0b.dir/OutputWriter.cpp.o"
 }
 ]
