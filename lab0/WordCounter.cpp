@@ -4,7 +4,7 @@
 #include <list>
 #include <locale>
 
-
+//счет слов
 bool WordCounter::isAlphanumeric(wchar_t c) { // проверяем что текст или цифры или буквы
 	return	(c >= L'a' && c <= L'z') || (c >= L'A' && c <= L'Z') ||
 		(c >= L'А' && c <= L'Я') || (c >= L'а' && c <= L'я') ||

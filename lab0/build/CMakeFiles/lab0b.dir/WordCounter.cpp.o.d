@@ -1,6 +1,6 @@
 CMakeFiles/lab0b.dir/WordCounter.cpp.o: \
-  /Users/trisha/Desktop/nsu/oop/lab0/WordCounter.cpp \
-  /Users/trisha/Desktop/nsu/oop/lab0/WordCounter.h \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__config \

@@ -1,6 +1,6 @@
 CMakeFiles/lab0b.dir/main.cpp.o: \
-  /Users/trisha/Desktop/nsu/oop/lab0/main.cpp \
-  /Users/trisha/Desktop/nsu/oop/lab0/TextFile.h \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -687,9 +687,9 @@ CMakeFiles/lab0b.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/trisha/Desktop/nsu/oop/lab0/CSV.h \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/iostream \
-  /Users/trisha/Desktop/nsu/oop/lab0/WordCounter.h \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/erase_if_container.h \

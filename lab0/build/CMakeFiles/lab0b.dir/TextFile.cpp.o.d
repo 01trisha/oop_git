@@ -1,6 +1,6 @@
 CMakeFiles/lab0b.dir/TextFile.cpp.o: \
-  /Users/trisha/Desktop/nsu/oop/lab0/TextFile.cpp \
-  /Users/trisha/Desktop/nsu/oop/lab0/TextFile.h \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/comp.h \

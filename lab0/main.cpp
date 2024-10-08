@@ -10,7 +10,7 @@
 using namespace std;
 
 
-int main(int argc, char* argv[]) { // argc - колво агруметов, argv - массив строк с аргументами
+int main(int argc, char* argv[]) {
 	setlocale(LC_ALL, "Russian");
 
 	if (argc < 2) {
@@ -20,7 +20,8 @@ int main(int argc, char* argv[]) { // argc - колво агруметов, argv
 
 	string Text = argv[1];
 
-	CSV csv;
+	CSV csv; //создаем экземпляр класса который будет использоваться для записи значений
+
 	TextFile textFile(Text);
 
 	list<wstring> words = textFile.readText();

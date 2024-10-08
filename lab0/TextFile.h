@@ -7,7 +7,7 @@
 
 class TextFile { // для чтения текстового файла
 private:
-	std::string Text;
+	std::string Text; //храним имя файла
 
 public:
 

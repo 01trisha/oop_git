@@ -1,6 +1,6 @@
 CMakeFiles/lab0b.dir/CSV.cpp.o: \
-  /Users/trisha/Desktop/nsu/oop/lab0/CSV.cpp \
-  /Users/trisha/Desktop/nsu/oop/lab0/CSV.h \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp \
+  /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__assertion_handler \
