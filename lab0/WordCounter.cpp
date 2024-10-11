@@ -5,6 +5,7 @@
 #include <locale>
 
 //счет слов
+
 bool WordCounter::isAlphanumeric(wchar_t c) { // проверяем что текст или цифры или буквы
 	return	(c >= L'a' && c <= L'z') || (c >= L'A' && c <= L'Z') ||
 		(c >= L'А' && c <= L'Я') || (c >= L'а' && c <= L'я') ||
@@ -12,7 +13,7 @@ bool WordCounter::isAlphanumeric(wchar_t c) { // проверяем что те�
 }
 
 void WordCounter::processText(list <wstring>& words, list<pair<wstring, pair<int, double>>>& data) {
-	map <wstring, int> wordCount; // смотрим столько раз повторяется каждое слово
+	map <wstring, int> wordCount; 
 	int totalWords = 0; // общее колво слов
 	for (auto& line : words) {
 		wstring word;

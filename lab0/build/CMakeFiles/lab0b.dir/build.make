@@ -73,57 +73,57 @@ CMakeFiles/lab0b.dir/CSV.cpp.o: CMakeFiles/lab0b.dir/flags.make
 CMakeFiles/lab0b.dir/CSV.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp
 CMakeFiles/lab0b.dir/CSV.cpp.o: CMakeFiles/lab0b.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab0b.dir/CSV.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab0b.dir/CSV.cpp.o -MF CMakeFiles/lab0b.dir/CSV.cpp.o.d -o CMakeFiles/lab0b.dir/CSV.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab0b.dir/CSV.cpp.o -MF CMakeFiles/lab0b.dir/CSV.cpp.o.d -o CMakeFiles/lab0b.dir/CSV.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp
 
 CMakeFiles/lab0b.dir/CSV.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab0b.dir/CSV.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp > CMakeFiles/lab0b.dir/CSV.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp > CMakeFiles/lab0b.dir/CSV.cpp.i
 
 CMakeFiles/lab0b.dir/CSV.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab0b.dir/CSV.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp -o CMakeFiles/lab0b.dir/CSV.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/lab0/CSV.cpp -o CMakeFiles/lab0b.dir/CSV.cpp.s
 
 CMakeFiles/lab0b.dir/TextFile.cpp.o: CMakeFiles/lab0b.dir/flags.make
 CMakeFiles/lab0b.dir/TextFile.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp
 CMakeFiles/lab0b.dir/TextFile.cpp.o: CMakeFiles/lab0b.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab0b.dir/TextFile.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab0b.dir/TextFile.cpp.o -MF CMakeFiles/lab0b.dir/TextFile.cpp.o.d -o CMakeFiles/lab0b.dir/TextFile.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab0b.dir/TextFile.cpp.o -MF CMakeFiles/lab0b.dir/TextFile.cpp.o.d -o CMakeFiles/lab0b.dir/TextFile.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp
 
 CMakeFiles/lab0b.dir/TextFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab0b.dir/TextFile.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp > CMakeFiles/lab0b.dir/TextFile.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp > CMakeFiles/lab0b.dir/TextFile.cpp.i
 
 CMakeFiles/lab0b.dir/TextFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab0b.dir/TextFile.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp -o CMakeFiles/lab0b.dir/TextFile.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/lab0/TextFile.cpp -o CMakeFiles/lab0b.dir/TextFile.cpp.s
 
 CMakeFiles/lab0b.dir/WordCounter.cpp.o: CMakeFiles/lab0b.dir/flags.make
 CMakeFiles/lab0b.dir/WordCounter.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp
 CMakeFiles/lab0b.dir/WordCounter.cpp.o: CMakeFiles/lab0b.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab0b.dir/WordCounter.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab0b.dir/WordCounter.cpp.o -MF CMakeFiles/lab0b.dir/WordCounter.cpp.o.d -o CMakeFiles/lab0b.dir/WordCounter.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab0b.dir/WordCounter.cpp.o -MF CMakeFiles/lab0b.dir/WordCounter.cpp.o.d -o CMakeFiles/lab0b.dir/WordCounter.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp
 
 CMakeFiles/lab0b.dir/WordCounter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab0b.dir/WordCounter.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp > CMakeFiles/lab0b.dir/WordCounter.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp > CMakeFiles/lab0b.dir/WordCounter.cpp.i
 
 CMakeFiles/lab0b.dir/WordCounter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab0b.dir/WordCounter.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp -o CMakeFiles/lab0b.dir/WordCounter.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/lab0/WordCounter.cpp -o CMakeFiles/lab0b.dir/WordCounter.cpp.s
 
 CMakeFiles/lab0b.dir/main.cpp.o: CMakeFiles/lab0b.dir/flags.make
 CMakeFiles/lab0b.dir/main.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp
 CMakeFiles/lab0b.dir/main.cpp.o: CMakeFiles/lab0b.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab0b.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab0b.dir/main.cpp.o -MF CMakeFiles/lab0b.dir/main.cpp.o.d -o CMakeFiles/lab0b.dir/main.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab0b.dir/main.cpp.o -MF CMakeFiles/lab0b.dir/main.cpp.o.d -o CMakeFiles/lab0b.dir/main.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp
 
 CMakeFiles/lab0b.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab0b.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp > CMakeFiles/lab0b.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp > CMakeFiles/lab0b.dir/main.cpp.i
 
 CMakeFiles/lab0b.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab0b.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp -o CMakeFiles/lab0b.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/lab0/main.cpp -o CMakeFiles/lab0b.dir/main.cpp.s
 
 # Object files for target lab0b
 lab0b_OBJECTS = \
