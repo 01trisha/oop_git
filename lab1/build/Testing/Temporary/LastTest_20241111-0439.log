@@ -1,0 +1,29 @@
+Start testing: Nov 12 00:54 +07
+----------------------------------------------------------
+25/26 Testing: CircularBufferTest.NotEqualsTest
+25/26 Test: CircularBufferTest.NotEqualsTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.NotEqualsTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.NotEqualsTest" start time: Nov 12 00:54 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.NotEqualsTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.NotEqualsTest
+[       OK ] CircularBufferTest.NotEqualsTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.NotEqualsTest" end time: Nov 12 00:54 +07
+"CircularBufferTest.NotEqualsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 12 00:54 +07

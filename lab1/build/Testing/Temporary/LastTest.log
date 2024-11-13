@@ -1,0 +1,679 @@
+Start testing: Nov 13 00:24 +07
+----------------------------------------------------------
+1/26 Testing: CircularBufferTest.ConstructorWithoutParametersTest
+1/26 Test: CircularBufferTest.ConstructorWithoutParametersTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ConstructorWithoutParametersTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.ConstructorWithoutParametersTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.ConstructorWithoutParametersTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.ConstructorWithoutParametersTest
+[       OK ] CircularBufferTest.ConstructorWithoutParametersTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.ConstructorWithoutParametersTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorWithoutParametersTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/26 Testing: CircularBufferTest.ConstructorCopyTest
+2/26 Test: CircularBufferTest.ConstructorCopyTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ConstructorCopyTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.ConstructorCopyTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.ConstructorCopyTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.ConstructorCopyTest
+[       OK ] CircularBufferTest.ConstructorCopyTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.ConstructorCopyTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorCopyTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/26 Testing: CircularBufferTest.ConstructorWithParameterTest
+3/26 Test: CircularBufferTest.ConstructorWithParameterTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ConstructorWithParameterTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.ConstructorWithParameterTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.ConstructorWithParameterTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.ConstructorWithParameterTest
+[       OK ] CircularBufferTest.ConstructorWithParameterTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.ConstructorWithParameterTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorWithParameterTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/26 Testing: CircularBufferTest.ConstructorWithParametersTest
+4/26 Test: CircularBufferTest.ConstructorWithParametersTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ConstructorWithParametersTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.ConstructorWithParametersTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.ConstructorWithParametersTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.ConstructorWithParametersTest
+[       OK ] CircularBufferTest.ConstructorWithParametersTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.ConstructorWithParametersTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorWithParametersTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/26 Testing: CircularBufferTest.IndexOperatorTest
+5/26 Test: CircularBufferTest.IndexOperatorTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.IndexOperatorTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.IndexOperatorTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.IndexOperatorTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.IndexOperatorTest
+[       OK ] CircularBufferTest.IndexOperatorTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.IndexOperatorTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.IndexOperatorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/26 Testing: CircularBufferTest.AccessMethodTest
+6/26 Test: CircularBufferTest.AccessMethodTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.AccessMethodTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.AccessMethodTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.AccessMethodTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.AccessMethodTest
+[       OK ] CircularBufferTest.AccessMethodTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.AccessMethodTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.AccessMethodTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/26 Testing: CircularBufferTest.FrontTest
+7/26 Test: CircularBufferTest.FrontTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.FrontTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.FrontTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.FrontTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.FrontTest
+[       OK ] CircularBufferTest.FrontTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.FrontTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.FrontTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/26 Testing: CircularBufferTest.BackTest
+8/26 Test: CircularBufferTest.BackTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.BackTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.BackTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.BackTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.BackTest
+[       OK ] CircularBufferTest.BackTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.BackTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.BackTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/26 Testing: CircularBufferTest.LinearizeTest
+9/26 Test: CircularBufferTest.LinearizeTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.LinearizeTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.LinearizeTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.LinearizeTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.LinearizeTest
+[       OK ] CircularBufferTest.LinearizeTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.LinearizeTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.LinearizeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/26 Testing: CircularBufferTest.RotateTest
+10/26 Test: CircularBufferTest.RotateTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.RotateTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.RotateTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.RotateTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.RotateTest
+[       OK ] CircularBufferTest.RotateTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.RotateTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.RotateTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/26 Testing: CircularBufferTest.EmptyTest
+11/26 Test: CircularBufferTest.EmptyTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.EmptyTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.EmptyTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.EmptyTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.EmptyTest
+[       OK ] CircularBufferTest.EmptyTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.EmptyTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.EmptyTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/26 Testing: CircularBufferTest.FullTest
+12/26 Test: CircularBufferTest.FullTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.FullTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.FullTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.FullTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.FullTest
+[       OK ] CircularBufferTest.FullTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.FullTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.FullTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/26 Testing: CircularBufferTest.ReserveTest
+13/26 Test: CircularBufferTest.ReserveTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ReserveTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.ReserveTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.ReserveTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.ReserveTest
+[       OK ] CircularBufferTest.ReserveTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.ReserveTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ReserveTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/26 Testing: CircularBufferTest.SetCapacityTest
+14/26 Test: CircularBufferTest.SetCapacityTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.SetCapacityTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.SetCapacityTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.SetCapacityTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.SetCapacityTest
+[       OK ] CircularBufferTest.SetCapacityTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.SetCapacityTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.SetCapacityTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/26 Testing: CircularBufferTest.ResizeTest
+15/26 Test: CircularBufferTest.ResizeTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ResizeTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.ResizeTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.ResizeTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.ResizeTest
+[       OK ] CircularBufferTest.ResizeTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.ResizeTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ResizeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/26 Testing: CircularBufferTest.AssidgnmentTest
+16/26 Test: CircularBufferTest.AssidgnmentTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.AssidgnmentTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.AssidgnmentTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.AssidgnmentTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.AssidgnmentTest
+[       OK ] CircularBufferTest.AssidgnmentTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.AssidgnmentTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.AssidgnmentTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/26 Testing: CircularBufferTest.SwapTest
+17/26 Test: CircularBufferTest.SwapTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.SwapTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.SwapTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.SwapTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.SwapTest
+[       OK ] CircularBufferTest.SwapTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.SwapTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.SwapTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/26 Testing: CircularBufferTest.PushBackTest
+18/26 Test: CircularBufferTest.PushBackTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.PushBackTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.PushBackTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.PushBackTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.PushBackTest
+[       OK ] CircularBufferTest.PushBackTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.PushBackTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.PushBackTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/26 Testing: CircularBufferTest.PushFrontTest
+19/26 Test: CircularBufferTest.PushFrontTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.PushFrontTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.PushFrontTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.PushFrontTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.PushFrontTest
+[       OK ] CircularBufferTest.PushFrontTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.PushFrontTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.PushFrontTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/26 Testing: CircularBufferTest.PopBackTest
+20/26 Test: CircularBufferTest.PopBackTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.PopBackTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.PopBackTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.PopBackTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.PopBackTest
+[       OK ] CircularBufferTest.PopBackTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.PopBackTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.PopBackTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/26 Testing: CircularBufferTest.PopFrontTest
+21/26 Test: CircularBufferTest.PopFrontTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.PopFrontTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.PopFrontTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.PopFrontTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.PopFrontTest
+[       OK ] CircularBufferTest.PopFrontTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.PopFrontTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.PopFrontTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/26 Testing: CircularBufferTest.InsertTest
+22/26 Test: CircularBufferTest.InsertTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.InsertTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.InsertTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.InsertTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.InsertTest
+[       OK ] CircularBufferTest.InsertTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.InsertTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.InsertTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/26 Testing: CircularBufferTest.EraseTest
+23/26 Test: CircularBufferTest.EraseTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.EraseTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.EraseTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.EraseTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.EraseTest
+[       OK ] CircularBufferTest.EraseTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.EraseTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.EraseTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/26 Testing: CircularBufferTest.EqualsTest
+24/26 Test: CircularBufferTest.EqualsTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.EqualsTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.EqualsTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.EqualsTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.EqualsTest
+[       OK ] CircularBufferTest.EqualsTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.EqualsTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.EqualsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/26 Testing: CircularBufferTest.NotEqualsTest
+25/26 Test: CircularBufferTest.NotEqualsTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.NotEqualsTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.NotEqualsTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.NotEqualsTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.NotEqualsTest
+[       OK ] CircularBufferTest.NotEqualsTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.NotEqualsTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.NotEqualsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/26 Testing: CircularBufferTest.ClearTest
+26/26 Test: CircularBufferTest.ClearTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ClearTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
+"CircularBufferTest.ClearTest" start time: Nov 13 00:24 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.ClearTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.ClearTest
+[       OK ] CircularBufferTest.ClearTest (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.ClearTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ClearTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 13 00:24 +07
