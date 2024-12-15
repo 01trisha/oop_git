@@ -1,0 +1,81 @@
+Start testing: Nov 18 23:13 +07
+----------------------------------------------------------
+1/3 Testing: GameOfLifeTest.CalculatorTest
+1/3 Test: GameOfLifeTest.CalculatorTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/gameoflife_tests" "--gtest_filter=GameOfLifeTest.CalculatorTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build
+"GameOfLifeTest.CalculatorTest" start time: Nov 18 23:13 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GameOfLifeTest.CalculatorTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameOfLifeTest
+[ RUN      ] GameOfLifeTest.CalculatorTest
+[       OK ] GameOfLifeTest.CalculatorTest (0 ms)
+[----------] 1 test from GameOfLifeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GameOfLifeTest.CalculatorTest" end time: Nov 18 23:13 +07
+"GameOfLifeTest.CalculatorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: GameOfLifeTest.ImporterTest
+2/3 Test: GameOfLifeTest.ImporterTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/gameoflife_tests" "--gtest_filter=GameOfLifeTest.ImporterTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build
+"GameOfLifeTest.ImporterTest" start time: Nov 18 23:13 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GameOfLifeTest.ImporterTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameOfLifeTest
+[ RUN      ] GameOfLifeTest.ImporterTest
+[       OK ] GameOfLifeTest.ImporterTest (0 ms)
+[----------] 1 test from GameOfLifeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GameOfLifeTest.ImporterTest" end time: Nov 18 23:13 +07
+"GameOfLifeTest.ImporterTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: GameOfLifeTest.DumperTest
+3/3 Test: GameOfLifeTest.DumperTest
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/gameoflife_tests" "--gtest_filter=GameOfLifeTest.DumperTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build
+"GameOfLifeTest.DumperTest" start time: Nov 18 23:13 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GameOfLifeTest.DumperTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameOfLifeTest
+[ RUN      ] GameOfLifeTest.DumperTest
+[       OK ] GameOfLifeTest.DumperTest (0 ms)
+[----------] 1 test from GameOfLifeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GameOfLifeTest.DumperTest" end time: Nov 18 23:13 +07
+"GameOfLifeTest.DumperTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 18 23:13 +07

@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife.dir/src/main.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/main.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/main.cpp",
+  "output": "CMakeFiles/gameoflife.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife.dir/src/calc.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/calc.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/calc.cpp",
+  "output": "CMakeFiles/gameoflife.dir/src/calc.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife.dir/src/dumper.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/dumper.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/dumper.cpp",
+  "output": "CMakeFiles/gameoflife.dir/src/dumper.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife.dir/src/field.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/field.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/field.cpp",
+  "output": "CMakeFiles/gameoflife.dir/src/field.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife.dir/src/game.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/game.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/game.cpp",
+  "output": "CMakeFiles/gameoflife.dir/src/game.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife.dir/src/importer.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/importer.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/importer.cpp",
+  "output": "CMakeFiles/gameoflife.dir/src/importer.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife.dir/src/rule.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/rule.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/rule.cpp",
+  "output": "CMakeFiles/gameoflife.dir/src/rule.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife.dir/src/view.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/view.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/view.cpp",
+  "output": "CMakeFiles/gameoflife.dir/src/view.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife_tests.dir/tests/gameoflife_tests.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/tests/gameoflife_tests.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/tests/gameoflife_tests.cpp",
+  "output": "CMakeFiles/gameoflife_tests.dir/tests/gameoflife_tests.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife_tests.dir/src/calc.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/calc.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/calc.cpp",
+  "output": "CMakeFiles/gameoflife_tests.dir/src/calc.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife_tests.dir/src/dumper.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/dumper.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/dumper.cpp",
+  "output": "CMakeFiles/gameoflife_tests.dir/src/dumper.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife_tests.dir/src/field.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/field.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/field.cpp",
+  "output": "CMakeFiles/gameoflife_tests.dir/src/field.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife_tests.dir/src/game.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/game.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/game.cpp",
+  "output": "CMakeFiles/gameoflife_tests.dir/src/game.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife_tests.dir/src/importer.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/importer.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/importer.cpp",
+  "output": "CMakeFiles/gameoflife_tests.dir/src/importer.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife_tests.dir/src/rule.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/rule.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/rule.cpp",
+  "output": "CMakeFiles/gameoflife_tests.dir/src/rule.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/gameoflife_tests.dir/src/view.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/view.cpp",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/src/view.cpp",
+  "output": "CMakeFiles/gameoflife_tests.dir/src/view.cpp.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/clang++  -I/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googlemock/include -I/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googlemock -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googlemock/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googlemock -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/clang++  -I/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -I/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/clang++  -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/include -isystem /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

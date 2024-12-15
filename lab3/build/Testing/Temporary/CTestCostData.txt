@@ -1,0 +1,9 @@
+ConfigTest.ConstructorTest 5 0.00135768
+ViewTest.NoArguments 2 0.0021999
+ViewTest.HelpFlag 5 0.000783958
+ViewTest.WrongArguments 5 0.00079045
+ViewTest.CorrectArguments 5 0.000805425
+ProcessorTest.DefaultConstructor 5 0.00066925
+ProcessorTest.ConstructorWithView 5 0.000616325
+ProcessorConvertingTest.ConvertingTest 5 0.000680508
+---

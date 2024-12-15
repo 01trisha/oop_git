@@ -1,0 +1,14 @@
+{
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "cmake.sourceDirectory": "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3",
+    "files.associations": {
+        "string": "cpp",
+        "istream": "cpp",
+        "__config": "cpp",
+        "__node_handle": "cpp",
+        "cstdio": "cpp",
+        "print": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
+    }
+}

@@ -1,10 +1,10 @@
-Start testing: Nov 13 00:24 +07
+Start testing: Nov 13 16:39 +07
 ----------------------------------------------------------
 1/26 Testing: CircularBufferTest.ConstructorWithoutParametersTest
 1/26 Test: CircularBufferTest.ConstructorWithoutParametersTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ConstructorWithoutParametersTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.ConstructorWithoutParametersTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorWithoutParametersTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.ConstructorWithoutParametersTest
@@ -19,10 +19,10 @@ Note: Google Test filter = CircularBufferTest.ConstructorWithoutParametersTest
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.ConstructorWithoutParametersTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorWithoutParametersTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.ConstructorWithoutParametersTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/26 Test: CircularBufferTest.ConstructorCopyTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ConstructorCopyTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.ConstructorCopyTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorCopyTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.ConstructorCopyTest
@@ -48,7 +48,7 @@ Note: Google Test filter = CircularBufferTest.ConstructorCopyTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.ConstructorCopyTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorCopyTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.ConstructorCopyTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -56,7 +56,7 @@ Test Passed.
 3/26 Test: CircularBufferTest.ConstructorWithParameterTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ConstructorWithParameterTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.ConstructorWithParameterTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorWithParameterTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.ConstructorWithParameterTest
@@ -74,7 +74,7 @@ Note: Google Test filter = CircularBufferTest.ConstructorWithParameterTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.ConstructorWithParameterTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorWithParameterTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.ConstructorWithParameterTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -82,7 +82,7 @@ Test Passed.
 4/26 Test: CircularBufferTest.ConstructorWithParametersTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ConstructorWithParametersTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.ConstructorWithParametersTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorWithParametersTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.ConstructorWithParametersTest
@@ -100,7 +100,7 @@ Note: Google Test filter = CircularBufferTest.ConstructorWithParametersTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.ConstructorWithParametersTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ConstructorWithParametersTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.ConstructorWithParametersTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -108,7 +108,7 @@ Test Passed.
 5/26 Test: CircularBufferTest.IndexOperatorTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.IndexOperatorTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.IndexOperatorTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.IndexOperatorTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.IndexOperatorTest
@@ -126,7 +126,7 @@ Note: Google Test filter = CircularBufferTest.IndexOperatorTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.IndexOperatorTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.IndexOperatorTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.IndexOperatorTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -134,7 +134,7 @@ Test Passed.
 6/26 Test: CircularBufferTest.AccessMethodTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.AccessMethodTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.AccessMethodTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.AccessMethodTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.AccessMethodTest
@@ -152,7 +152,7 @@ Note: Google Test filter = CircularBufferTest.AccessMethodTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.AccessMethodTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.AccessMethodTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.AccessMethodTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -160,7 +160,7 @@ Test Passed.
 7/26 Test: CircularBufferTest.FrontTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.FrontTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.FrontTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.FrontTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.FrontTest
@@ -178,7 +178,7 @@ Note: Google Test filter = CircularBufferTest.FrontTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.FrontTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.FrontTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.FrontTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -186,7 +186,7 @@ Test Passed.
 8/26 Test: CircularBufferTest.BackTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.BackTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.BackTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.BackTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.BackTest
@@ -204,7 +204,7 @@ Note: Google Test filter = CircularBufferTest.BackTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.BackTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.BackTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.BackTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -212,7 +212,7 @@ Test Passed.
 9/26 Test: CircularBufferTest.LinearizeTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.LinearizeTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.LinearizeTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.LinearizeTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.LinearizeTest
@@ -230,7 +230,7 @@ Note: Google Test filter = CircularBufferTest.LinearizeTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.LinearizeTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.LinearizeTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.LinearizeTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -238,7 +238,7 @@ Test Passed.
 10/26 Test: CircularBufferTest.RotateTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.RotateTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.RotateTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.RotateTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.RotateTest
@@ -256,7 +256,7 @@ Note: Google Test filter = CircularBufferTest.RotateTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.RotateTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.RotateTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.RotateTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -264,7 +264,7 @@ Test Passed.
 11/26 Test: CircularBufferTest.EmptyTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.EmptyTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.EmptyTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.EmptyTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.EmptyTest
@@ -282,7 +282,7 @@ Note: Google Test filter = CircularBufferTest.EmptyTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.EmptyTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.EmptyTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.EmptyTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -290,7 +290,7 @@ Test Passed.
 12/26 Test: CircularBufferTest.FullTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.FullTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.FullTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.FullTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.FullTest
@@ -308,7 +308,7 @@ Note: Google Test filter = CircularBufferTest.FullTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.FullTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.FullTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.FullTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -316,7 +316,7 @@ Test Passed.
 13/26 Test: CircularBufferTest.ReserveTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ReserveTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.ReserveTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.ReserveTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.ReserveTest
@@ -334,7 +334,7 @@ Note: Google Test filter = CircularBufferTest.ReserveTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.ReserveTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ReserveTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.ReserveTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -342,7 +342,7 @@ Test Passed.
 14/26 Test: CircularBufferTest.SetCapacityTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.SetCapacityTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.SetCapacityTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.SetCapacityTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.SetCapacityTest
@@ -360,7 +360,7 @@ Note: Google Test filter = CircularBufferTest.SetCapacityTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.SetCapacityTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.SetCapacityTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.SetCapacityTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -368,7 +368,7 @@ Test Passed.
 15/26 Test: CircularBufferTest.ResizeTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ResizeTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.ResizeTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.ResizeTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.ResizeTest
@@ -386,7 +386,7 @@ Note: Google Test filter = CircularBufferTest.ResizeTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.ResizeTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ResizeTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.ResizeTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -394,7 +394,7 @@ Test Passed.
 16/26 Test: CircularBufferTest.AssidgnmentTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.AssidgnmentTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.AssidgnmentTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.AssidgnmentTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.AssidgnmentTest
@@ -412,7 +412,7 @@ Note: Google Test filter = CircularBufferTest.AssidgnmentTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.AssidgnmentTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.AssidgnmentTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.AssidgnmentTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -420,7 +420,7 @@ Test Passed.
 17/26 Test: CircularBufferTest.SwapTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.SwapTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.SwapTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.SwapTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.SwapTest
@@ -438,7 +438,7 @@ Note: Google Test filter = CircularBufferTest.SwapTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.SwapTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.SwapTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.SwapTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -446,7 +446,7 @@ Test Passed.
 18/26 Test: CircularBufferTest.PushBackTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.PushBackTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.PushBackTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.PushBackTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.PushBackTest
@@ -464,7 +464,7 @@ Note: Google Test filter = CircularBufferTest.PushBackTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.PushBackTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.PushBackTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.PushBackTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -472,7 +472,7 @@ Test Passed.
 19/26 Test: CircularBufferTest.PushFrontTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.PushFrontTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.PushFrontTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.PushFrontTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.PushFrontTest
@@ -490,7 +490,7 @@ Note: Google Test filter = CircularBufferTest.PushFrontTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.PushFrontTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.PushFrontTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.PushFrontTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -498,7 +498,7 @@ Test Passed.
 20/26 Test: CircularBufferTest.PopBackTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.PopBackTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.PopBackTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.PopBackTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.PopBackTest
@@ -516,7 +516,7 @@ Note: Google Test filter = CircularBufferTest.PopBackTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.PopBackTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.PopBackTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.PopBackTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -524,7 +524,7 @@ Test Passed.
 21/26 Test: CircularBufferTest.PopFrontTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.PopFrontTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.PopFrontTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.PopFrontTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.PopFrontTest
@@ -542,7 +542,7 @@ Note: Google Test filter = CircularBufferTest.PopFrontTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.PopFrontTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.PopFrontTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.PopFrontTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -550,7 +550,7 @@ Test Passed.
 22/26 Test: CircularBufferTest.InsertTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.InsertTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.InsertTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.InsertTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.InsertTest
@@ -568,7 +568,7 @@ Note: Google Test filter = CircularBufferTest.InsertTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.InsertTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.InsertTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.InsertTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -576,7 +576,7 @@ Test Passed.
 23/26 Test: CircularBufferTest.EraseTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.EraseTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.EraseTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.EraseTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.EraseTest
@@ -594,7 +594,7 @@ Note: Google Test filter = CircularBufferTest.EraseTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.EraseTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.EraseTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.EraseTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -602,7 +602,7 @@ Test Passed.
 24/26 Test: CircularBufferTest.EqualsTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.EqualsTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.EqualsTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.EqualsTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.EqualsTest
@@ -620,7 +620,7 @@ Note: Google Test filter = CircularBufferTest.EqualsTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.EqualsTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.EqualsTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.EqualsTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -628,7 +628,7 @@ Test Passed.
 25/26 Test: CircularBufferTest.NotEqualsTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.NotEqualsTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.NotEqualsTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.NotEqualsTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.NotEqualsTest
@@ -646,7 +646,7 @@ Note: Google Test filter = CircularBufferTest.NotEqualsTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.NotEqualsTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.NotEqualsTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.NotEqualsTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -654,7 +654,7 @@ Test Passed.
 26/26 Test: CircularBufferTest.ClearTest
 Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test" "--gtest_filter=CircularBufferTest.ClearTest" "--gtest_also_run_disabled_tests"
 Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab1/build
-"CircularBufferTest.ClearTest" start time: Nov 13 00:24 +07
+"CircularBufferTest.ClearTest" start time: Nov 13 16:39 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CircularBufferTest.ClearTest
@@ -672,8 +672,8 @@ Note: Google Test filter = CircularBufferTest.ClearTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CircularBufferTest.ClearTest" end time: Nov 13 00:24 +07
+"CircularBufferTest.ClearTest" end time: Nov 13 16:39 +07
 "CircularBufferTest.ClearTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 13 00:24 +07
+End testing: Nov 13 16:39 +07

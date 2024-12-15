@@ -1,0 +1,5 @@
+if(EXISTS "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test[1]_tests.cmake")
+  include("/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test[1]_tests.cmake")
+else()
+  add_test(Sound_processor_test_NOT_BUILT Sound_processor_test_NOT_BUILT)
+endif()
