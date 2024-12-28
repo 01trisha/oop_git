@@ -1,5 +1,6 @@
 #include "View.h"
 
+//обработка аргументов
 View::View(int argc, char** argv) {
 
 	if (argc == 1) {
@@ -31,14 +32,10 @@ View::View(int argc, char** argv) {
 	}
 	if (string(argv[4]).ends_with(".wav")) {
 		_inputFile = argv[4];
-	} else {
-		cout << "Error: input1 file is not .wav" << endl;
-		return;
 	}
 	for (int i = 5; i < argc; i++) {
-		string arg = argv[i];
-		if (arg.ends_with(".wav")) {
-			_mixFiles.emplace_back(arg);
+		if (string(argv[i]).ends_with(".wav")) {
+			_inputFiles.emplace_back(argv[i]);
 		} else {
 			cout << "Error: input" << (i - 3) << " file is not .wav" << endl;
 			_config = nullptr;
@@ -52,7 +49,7 @@ bool View::start() {
 	if (_help) {
 		return true;
 	}
-	if (!_config.empty() && !_outputFile.empty() && !_inputFile.empty()) {
+	if (!_config.empty() && !_outputFile.empty() && !_inputFiles.empty()) {
 		return true;
 	}
 	cout << "Error: wrong program arguments. To see help use '-h'" << endl;
@@ -71,10 +68,10 @@ string View::getInputFile() {
 	return _inputFile;
 }
 
-vector<string> View::getMixFiles() {
-	return _mixFiles;
-}
-
 string View::getConfig() {
 	return _config;
+}
+
+vector<string> View::getInputFiles() {
+	return _inputFiles;
 }

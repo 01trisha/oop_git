@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/trisha/Desktop/nsu/oop/oop_git/Lab3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
+CMAKE_BINARY_DIR = /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Sound_processor_test.dir/depend.make
@@ -72,7 +72,7 @@ include CMakeFiles/Sound_processor_test.dir/flags.make
 CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.o: CMakeFiles/Sound_processor_test.dir/flags.make
 CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/tests/tests.cpp
 CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.o: CMakeFiles/Sound_processor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.o -MF CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.o.d -o CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/tests/tests.cpp
 
 CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.i: cmake_force
@@ -86,7 +86,7 @@ CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.s: cmake_force
 CMakeFiles/Sound_processor_test.dir/src/View.cpp.o: CMakeFiles/Sound_processor_test.dir/flags.make
 CMakeFiles/Sound_processor_test.dir/src/View.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/View.cpp
 CMakeFiles/Sound_processor_test.dir/src/View.cpp.o: CMakeFiles/Sound_processor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/View.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/View.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sound_processor_test.dir/src/View.cpp.o -MF CMakeFiles/Sound_processor_test.dir/src/View.cpp.o.d -o CMakeFiles/Sound_processor_test.dir/src/View.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/View.cpp
 
 CMakeFiles/Sound_processor_test.dir/src/View.cpp.i: cmake_force
@@ -100,7 +100,7 @@ CMakeFiles/Sound_processor_test.dir/src/View.cpp.s: cmake_force
 CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o: CMakeFiles/Sound_processor_test.dir/flags.make
 CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/Config.cpp
 CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o: CMakeFiles/Sound_processor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o -MF CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o.d -o CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/Config.cpp
 
 CMakeFiles/Sound_processor_test.dir/src/Config.cpp.i: cmake_force
@@ -114,7 +114,7 @@ CMakeFiles/Sound_processor_test.dir/src/Config.cpp.s: cmake_force
 CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o: CMakeFiles/Sound_processor_test.dir/flags.make
 CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/Processor.cpp
 CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o: CMakeFiles/Sound_processor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o -MF CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o.d -o CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/Processor.cpp
 
 CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.i: cmake_force
@@ -125,10 +125,24 @@ CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/Processor.cpp -o CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.s
 
+CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o: CMakeFiles/Sound_processor_test.dir/flags.make
+CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/Context.cpp
+CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o: CMakeFiles/Sound_processor_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o -MF CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o.d -o CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/Context.cpp
+
+CMakeFiles/Sound_processor_test.dir/src/Context.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Sound_processor_test.dir/src/Context.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/Context.cpp > CMakeFiles/Sound_processor_test.dir/src/Context.cpp.i
+
+CMakeFiles/Sound_processor_test.dir/src/Context.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Sound_processor_test.dir/src/Context.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/Context.cpp -o CMakeFiles/Sound_processor_test.dir/src/Context.cpp.s
+
 CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o: CMakeFiles/Sound_processor_test.dir/flags.make
 CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/MuteConverter.cpp
 CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o: CMakeFiles/Sound_processor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o -MF CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o.d -o CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/MuteConverter.cpp
 
 CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.s: cmake_force
 CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o: CMakeFiles/Sound_processor_test.dir/flags.make
 CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/MixConverter.cpp
 CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o: CMakeFiles/Sound_processor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o -MF CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o.d -o CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/MixConverter.cpp
 
 CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.s: cmake_force
 CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o: CMakeFiles/Sound_processor_test.dir/flags.make
 CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/ReverseConverter.cpp
 CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o: CMakeFiles/Sound_processor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o -MF CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o.d -o CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o -c /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/src/ReverseConverter.cpp
 
 CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.i: cmake_force
@@ -173,6 +187,7 @@ Sound_processor_test_OBJECTS = \
 "CMakeFiles/Sound_processor_test.dir/src/View.cpp.o" \
 "CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o" \
 "CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o" \
+"CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o" \
 "CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o" \
 "CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o" \
 "CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o"
@@ -184,6 +199,7 @@ Sound_processor_test: CMakeFiles/Sound_processor_test.dir/tests/tests.cpp.o
 Sound_processor_test: CMakeFiles/Sound_processor_test.dir/src/View.cpp.o
 Sound_processor_test: CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o
 Sound_processor_test: CMakeFiles/Sound_processor_test.dir/src/Processor.cpp.o
+Sound_processor_test: CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o
 Sound_processor_test: CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o
 Sound_processor_test: CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o
 Sound_processor_test: CMakeFiles/Sound_processor_test.dir/src/ReverseConverter.cpp.o
@@ -191,9 +207,9 @@ Sound_processor_test: CMakeFiles/Sound_processor_test.dir/build.make
 Sound_processor_test: lib/libgtest_main.a
 Sound_processor_test: lib/libgtest.a
 Sound_processor_test: CMakeFiles/Sound_processor_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Sound_processor_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Sound_processor_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sound_processor_test.dir/link.txt --verbose=$(VERBOSE)
-	/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -D TEST_TARGET=Sound_processor_test -D TEST_EXECUTABLE=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=Sound_processor_test_TESTS -D CTEST_FILE=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/GoogleTestAddTests.cmake
+	/opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -D TEST_TARGET=Sound_processor_test -D TEST_EXECUTABLE=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=Sound_processor_test_TESTS -D CTEST_FILE=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 CMakeFiles/Sound_processor_test.dir/build: Sound_processor_test
@@ -204,6 +220,6 @@ CMakeFiles/Sound_processor_test.dir/clean:
 .PHONY : CMakeFiles/Sound_processor_test.dir/clean
 
 CMakeFiles/Sound_processor_test.dir/depend:
-	cd /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/trisha/Desktop/nsu/oop/oop_git/Lab3 /Users/trisha/Desktop/nsu/oop/oop_git/Lab3 /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles/Sound_processor_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/trisha/Desktop/nsu/oop/oop_git/Lab3 /Users/trisha/Desktop/nsu/oop/oop_git/Lab3 /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles/Sound_processor_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Sound_processor_test.dir/depend
 

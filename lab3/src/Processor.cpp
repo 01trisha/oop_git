@@ -5,17 +5,20 @@
 
 Processor::Processor::Processor() = default;
 
-Processor::Processor(View view) {
-	_factory.add<MuteConverter>(Mute);
-	_factory.add<MixConverter>(Mix);
-	_factory.add<ReverseConverter>(Reverse);
-	_converters.push_back(_factory.get(Mute)());
-	_converters.push_back(_factory.get(Mix)());
-	_converters.push_back(_factory.get(Reverse)());
 
+//инициализация процессора, добавление конвертеров в контейнер
+Processor::Processor(View view) {
+	_factory.add<MuteConverter>(ToolType::MUTE);
+	_factory.add<MixConverter>(ToolType::MIX);
+	_factory.add<ReverseConverter>(ToolType::REVERSE);
+	//добавляем обьект конвентера в контейнер
+	_converters.push_back(_factory.get(ToolType::MUTE)());
+	_converters.push_back(_factory.get(ToolType::MIX)());
+	_converters.push_back(_factory.get(ToolType::REVERSE)());
+	//получаем параметры из view
 	_outputFile = view.getOutputFile();
 	_inputFile = view.getInputFile();
-	_mixFiles = view.getMixFiles();
+	_inputFiles = view.getInputFiles();
 }
 
 string Processor::getOutputFile() {
@@ -26,30 +29,59 @@ string Processor::Processor::getInputFile() {
 	return _inputFile;
 }
 
-string Processor::getMixFile(int num) {
-	if (num - 1 <= _mixFiles.size()) {
-		return _mixFiles[num - 2];
-	}
-	return "";
+vector<string> Processor::getInputFiles(){
+	return _inputFiles;
 }
 
+//проверяем соответствует ли wav файл заданым нашим параметрам 
 bool Processor::wavCheck(const string& filename) const {
 	ifstream file(filename, ios::binary);
 	WAV_HEADER data;
 	file.read(reinterpret_cast<char*>(&data), sizeof(WAV_HEADER));
-	if ((data.audioFormat != _audioFormat)
-	|| (data.numOfChannels != _numOfChannels)
-	|| (data.samplesPedSec != _samplesPedSec)
-	|| (data.bitsPerSample != _bitsPerSample)) {
+	if ((data.audioFormat != _audioFormat) || (data.numOfChannels != _numOfChannels) || (data.samplesPedSec != _samplesPedSec) || (data.bitsPerSample != _bitsPerSample)) {
 		return false;
 	}
 	return true;
 }
 
-void Processor::handle(ToolType type, ifstream& input1, ifstream& input2, ofstream& output, int start, int end) {
+
+// void Processor::wavWriter(const string& InputFile, const string& OutputFile) {
+// 	ifstream inputFile(InputFile, ios::binary);
+// 	ofstream outputFile(OutputFile, ios::binary);
+// 	WAV_HEADER header;
+// 	inputFile.read(reinterpret_cast<char*>(&header), sizeof(header));
+// 	outputFile.write(reinterpret_cast<const char*>(&header), sizeof(header));
+// }
+
+// size_t getOffset(const std::string& inputFile) {
+//     std::ifstream file(inputFile, std::ios::binary);
+//     if (!file.is_open()) {
+//         throw std::runtime_error("Не удалось открыть файл.");
+//     }
+//     // Считать заголовок WAV
+//     WAV_HEADER header;
+//     file.read(reinterpret_cast<char*>(&header), sizeof(WAV_HEADER));
+
+//     // Проверить идентификатор RIFF
+//     if (std::string(reinterpret_cast<char*>(header.chunkID), 4) != "RIFF" ||
+//         std::string(reinterpret_cast<char*>(header.format), 4) != "WAVE") {
+//         throw std::runtime_error("Файл не является WAV.");
+//     }
+//     // Определить смещение аудиоданных
+//     size_t offset = sizeof(WAV_HEADER);
+//     // Если есть дополнительные данные, учесть их
+//     size_t actualChunkSize = header.chunkSize + 8; // chunkSize включает всё после поля "chunkID" (всего 8 байт на chunkID и chunkSize)
+//     if (actualChunkSize > offset) {
+//         offset += (actualChunkSize - offset);
+//     }
+//     return offset;
+// }
+
+//проверка поддерживается ли переданный type обработки для каждого конвентера 
+void Processor::handle(ToolType type, ifstream& input, ofstream& output, Processor::ListOfData context, Processor::ListOfData inputFiles) { 
 	for (auto & converter : _converters) {
 		if (converter->support(type)) {
-			converter->convert(input1, input2, output, start, end);
+			converter->convert(context,input, output, inputFiles);
 			break;
 		}
 	}
@@ -65,12 +97,12 @@ void Processor::getHelp() {
 	}
 	cout << "To see this help use '-h'" << endl;
 }
-
+//для присваивания оного обьекта класса Processor другому 
 Processor& Processor::operator=(const Processor& other) {
 	if (this != &other) {
 		_inputFile = other._inputFile;
 		_outputFile = other._outputFile;
-		_mixFiles = other._mixFiles;
+		_inputFiles = other._inputFiles;
 	}
 	return *this;
 }

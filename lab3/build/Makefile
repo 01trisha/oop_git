@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/trisha/Desktop/nsu/oop/oop_git/Lab3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
+CMAKE_BINARY_DIR = /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -275,6 +275,33 @@ src/Config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SoundProcessor.dir/build.make CMakeFiles/SoundProcessor.dir/src/Config.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sound_processor_test.dir/build.make CMakeFiles/Sound_processor_test.dir/src/Config.cpp.s
 .PHONY : src/Config.cpp.s
+
+src/Context.o: src/Context.cpp.o
+.PHONY : src/Context.o
+
+# target to build an object file
+src/Context.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SoundProcessor.dir/build.make CMakeFiles/SoundProcessor.dir/src/Context.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sound_processor_test.dir/build.make CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o
+.PHONY : src/Context.cpp.o
+
+src/Context.i: src/Context.cpp.i
+.PHONY : src/Context.i
+
+# target to preprocess a source file
+src/Context.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SoundProcessor.dir/build.make CMakeFiles/SoundProcessor.dir/src/Context.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sound_processor_test.dir/build.make CMakeFiles/Sound_processor_test.dir/src/Context.cpp.i
+.PHONY : src/Context.cpp.i
+
+src/Context.s: src/Context.cpp.s
+.PHONY : src/Context.s
+
+# target to generate assembly for a file
+src/Context.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SoundProcessor.dir/build.make CMakeFiles/SoundProcessor.dir/src/Context.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sound_processor_test.dir/build.make CMakeFiles/Sound_processor_test.dir/src/Context.cpp.s
+.PHONY : src/Context.cpp.s
 
 src/MixConverter.o: src/MixConverter.cpp.o
 .PHONY : src/MixConverter.o
@@ -481,6 +508,9 @@ help:
 	@echo "... src/Config.o"
 	@echo "... src/Config.i"
 	@echo "... src/Config.s"
+	@echo "... src/Context.o"
+	@echo "... src/Context.i"
+	@echo "... src/Context.s"
 	@echo "... src/MixConverter.o"
 	@echo "... src/MixConverter.i"
 	@echo "... src/MixConverter.s"

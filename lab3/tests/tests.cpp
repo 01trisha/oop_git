@@ -84,29 +84,26 @@ protected:
 };
 
 TEST_F(ProcessorConvertingTest, ConvertingTest) {
-	ifstream input1("../input1.wav", ios::binary);
-	ifstream input2("../input2.wav", ios::binary);
-	ifstream emptyFile;
+	ifstream input1("input1.wav", ios::binary);
+	ifstream input2("input2.wav", ios::binary);
 
 	Processor processor;
 	ofstream outputMute("result1.wav", ios::binary);
 
-	processor.handle(Mute, input1, emptyFile, outputMute, 5, 6);
-
 	ifstream inputMix("result1.wav", ios::binary);
 	ofstream outputMix("result2.wav", ios::binary);
 
-	processor.handle(Mix, inputMix, input2, outputMix, 15, 20);
+	processor.handle(ToolType::MIX, inputMix, outputMix, {"15", "20"}, {"input2.wav"});
 
 	ifstream inputReverse("result2.wav", ios::binary);
 	ofstream outputReverse("result3.wav", ios::binary);
 
-	processor.handle(Reverse, inputReverse, emptyFile, outputReverse, 25, 30);
+	processor.handle(ToolType::REVERSE, inputReverse, outputReverse, {"25", "30"}, {"input2.wav"});
 
 	ifstream inputMute2("result3.wav", ios::binary);
 	ofstream outputMute2("result4.wav", ios::binary);
 
-	processor.handle(Mute, inputMute2, emptyFile, outputMute2, 9, 10);
+	processor.handle(ToolType::MUTE, inputMute2, outputMute2, {"9", "10"}, {"input2.wav"});
 
 	ifstream result1("result4.wav", ios::binary);
 	ifstream result2("../output.wav", ios::binary);

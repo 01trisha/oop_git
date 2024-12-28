@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/trisha/Desktop/nsu/oop/oop_git/Lab3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
+CMAKE_BINARY_DIR = /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
 
 # Include any dependencies generated for this target.
 include _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend.make
@@ -72,7 +72,7 @@ include _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/flags.make
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/flags.make
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: _deps/googletest-src/googlemock/src/gmock_main.cc
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
 	cd /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-build/googlemock && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -MF CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-src/googlemock/src/gmock_main.cc
 
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
@@ -93,7 +93,7 @@ gmock_main_EXTERNAL_OBJECTS =
 lib/libgmock_main.a: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 lib/libgmock_main.a: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make
 lib/libgmock_main.a: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgmock_main.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgmock_main.a"
 	cd /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-build/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
 	cd /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-build/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean
 
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/trisha/Desktop/nsu/oop/oop_git/Lab3 /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-src/googlemock /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-build/googlemock /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/trisha/Desktop/nsu/oop/oop_git/Lab3 /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-src/googlemock /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-build/googlemock /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 

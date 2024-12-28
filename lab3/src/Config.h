@@ -1,6 +1,7 @@
 #pragma once
 #include "Processor.h"
 #include "View.h"
+#include "Context.h"
 
 using namespace std;
 
@@ -8,6 +9,7 @@ enum QueueType {
 	Even = 1,
 	Odd,
 };
+
 
 class Config
 {
@@ -18,17 +20,17 @@ public:
 	View getView();
 
 private:
-	void muteRead(string line);
-	void muteHandle(int start, int end);
-	void mixRead(string line);
-	void mixHandle(int num, int start, int end);
-	void reverseRead(string line);
-	void reverseHandle(int start, int end);
+
 	void rotateFiles(ifstream& inputFile, ofstream& outputFile);
 	void saveFiles();
-
+	typedef vector<pair<string, vector<string>>> ConventerContext;
+	ConventerContext _contextData;
+	typedef vector<string> ListOfFiles;
+	ListOfFiles _inputFiles;
+	
 	Processor _processor;
 	View _view;
+	Context _context;
 	const char* _evenFilename = "__even_temp_buffer.wav";
 	const char* _oddFilename = "__odd_temp_buffer.wav";
 	int _queue = 0;

@@ -1,10 +1,10 @@
-Start testing: Dec 12 16:25 +07
+Start testing: Dec 23 03:31 +07
 ----------------------------------------------------------
 1/8 Testing: ConfigTest.ConstructorTest
 1/8 Test: ConfigTest.ConstructorTest
-Command: "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test" "--gtest_filter=ConfigTest.ConstructorTest" "--gtest_also_run_disabled_tests"
-Directory: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
-"ConfigTest.ConstructorTest" start time: Dec 12 16:25 +07
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test" "--gtest_filter=ConfigTest.ConstructorTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
+"ConfigTest.ConstructorTest" start time: Dec 23 03:31 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ConfigTest.ConstructorTest
@@ -22,15 +22,15 @@ Note: Google Test filter = ConfigTest.ConstructorTest
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ConfigTest.ConstructorTest" end time: Dec 12 16:25 +07
+"ConfigTest.ConstructorTest" end time: Dec 23 03:31 +07
 "ConfigTest.ConstructorTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 2/8 Testing: ViewTest.NoArguments
 2/8 Test: ViewTest.NoArguments
-Command: "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test" "--gtest_filter=ViewTest.NoArguments" "--gtest_also_run_disabled_tests"
-Directory: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
-"ViewTest.NoArguments" start time: Dec 12 16:25 +07
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test" "--gtest_filter=ViewTest.NoArguments" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
+"ViewTest.NoArguments" start time: Dec 23 03:31 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ViewTest.NoArguments
@@ -48,15 +48,15 @@ Note: Google Test filter = ViewTest.NoArguments
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ViewTest.NoArguments" end time: Dec 12 16:25 +07
+"ViewTest.NoArguments" end time: Dec 23 03:31 +07
 "ViewTest.NoArguments" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 3/8 Testing: ViewTest.HelpFlag
 3/8 Test: ViewTest.HelpFlag
-Command: "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test" "--gtest_filter=ViewTest.HelpFlag" "--gtest_also_run_disabled_tests"
-Directory: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
-"ViewTest.HelpFlag" start time: Dec 12 16:25 +07
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test" "--gtest_filter=ViewTest.HelpFlag" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
+"ViewTest.HelpFlag" start time: Dec 23 03:31 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ViewTest.HelpFlag
@@ -74,15 +74,15 @@ Note: Google Test filter = ViewTest.HelpFlag
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ViewTest.HelpFlag" end time: Dec 12 16:25 +07
+"ViewTest.HelpFlag" end time: Dec 23 03:31 +07
 "ViewTest.HelpFlag" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 4/8 Testing: ViewTest.WrongArguments
 4/8 Test: ViewTest.WrongArguments
-Command: "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test" "--gtest_filter=ViewTest.WrongArguments" "--gtest_also_run_disabled_tests"
-Directory: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
-"ViewTest.WrongArguments" start time: Dec 12 16:25 +07
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test" "--gtest_filter=ViewTest.WrongArguments" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
+"ViewTest.WrongArguments" start time: Dec 23 03:31 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ViewTest.WrongArguments
@@ -100,15 +100,15 @@ Note: Google Test filter = ViewTest.WrongArguments
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ViewTest.WrongArguments" end time: Dec 12 16:25 +07
+"ViewTest.WrongArguments" end time: Dec 23 03:31 +07
 "ViewTest.WrongArguments" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 5/8 Testing: ViewTest.CorrectArguments
 5/8 Test: ViewTest.CorrectArguments
-Command: "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test" "--gtest_filter=ViewTest.CorrectArguments" "--gtest_also_run_disabled_tests"
-Directory: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
-"ViewTest.CorrectArguments" start time: Dec 12 16:25 +07
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test" "--gtest_filter=ViewTest.CorrectArguments" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
+"ViewTest.CorrectArguments" start time: Dec 23 03:31 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ViewTest.CorrectArguments
@@ -126,15 +126,15 @@ Note: Google Test filter = ViewTest.CorrectArguments
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ViewTest.CorrectArguments" end time: Dec 12 16:25 +07
+"ViewTest.CorrectArguments" end time: Dec 23 03:31 +07
 "ViewTest.CorrectArguments" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 6/8 Testing: ProcessorTest.DefaultConstructor
 6/8 Test: ProcessorTest.DefaultConstructor
-Command: "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test" "--gtest_filter=ProcessorTest.DefaultConstructor" "--gtest_also_run_disabled_tests"
-Directory: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
-"ProcessorTest.DefaultConstructor" start time: Dec 12 16:25 +07
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test" "--gtest_filter=ProcessorTest.DefaultConstructor" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
+"ProcessorTest.DefaultConstructor" start time: Dec 23 03:31 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ProcessorTest.DefaultConstructor
@@ -152,15 +152,15 @@ Note: Google Test filter = ProcessorTest.DefaultConstructor
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ProcessorTest.DefaultConstructor" end time: Dec 12 16:25 +07
+"ProcessorTest.DefaultConstructor" end time: Dec 23 03:31 +07
 "ProcessorTest.DefaultConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 7/8 Testing: ProcessorTest.ConstructorWithView
 7/8 Test: ProcessorTest.ConstructorWithView
-Command: "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test" "--gtest_filter=ProcessorTest.ConstructorWithView" "--gtest_also_run_disabled_tests"
-Directory: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
-"ProcessorTest.ConstructorWithView" start time: Dec 12 16:25 +07
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test" "--gtest_filter=ProcessorTest.ConstructorWithView" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
+"ProcessorTest.ConstructorWithView" start time: Dec 23 03:31 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ProcessorTest.ConstructorWithView
@@ -178,15 +178,15 @@ Note: Google Test filter = ProcessorTest.ConstructorWithView
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ProcessorTest.ConstructorWithView" end time: Dec 12 16:25 +07
+"ProcessorTest.ConstructorWithView" end time: Dec 23 03:31 +07
 "ProcessorTest.ConstructorWithView" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 8/8 Testing: ProcessorConvertingTest.ConvertingTest
 8/8 Test: ProcessorConvertingTest.ConvertingTest
-Command: "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/Sound_processor_test" "--gtest_filter=ProcessorConvertingTest.ConvertingTest" "--gtest_also_run_disabled_tests"
-Directory: /Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build
-"ProcessorConvertingTest.ConvertingTest" start time: Dec 12 16:25 +07
+Command: "/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/Sound_processor_test" "--gtest_filter=ProcessorConvertingTest.ConvertingTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/trisha/Desktop/nsu/oop/oop_git/lab3/build
+"ProcessorConvertingTest.ConvertingTest" start time: Dec 23 03:31 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ProcessorConvertingTest.ConvertingTest
@@ -204,8 +204,8 @@ Note: Google Test filter = ProcessorConvertingTest.ConvertingTest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ProcessorConvertingTest.ConvertingTest" end time: Dec 12 16:25 +07
+"ProcessorConvertingTest.ConvertingTest" end time: Dec 23 03:31 +07
 "ProcessorConvertingTest.ConvertingTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 12 16:25 +07
+End testing: Dec 23 03:31 +07

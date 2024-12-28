@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o"
   "CMakeFiles/Sound_processor_test.dir/src/Config.cpp.o.d"
+  "CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o"
+  "CMakeFiles/Sound_processor_test.dir/src/Context.cpp.o.d"
   "CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o"
   "CMakeFiles/Sound_processor_test.dir/src/MixConverter.cpp.o.d"
   "CMakeFiles/Sound_processor_test.dir/src/MuteConverter.cpp.o"

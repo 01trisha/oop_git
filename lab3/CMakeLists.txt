@@ -16,6 +16,8 @@ add_executable(SoundProcessor
         src/View.cpp
         src/Config.cpp
         src/Processor.cpp
+        src/Context.h 
+        src/Context.cpp 
         src/MuteConverter.cpp
         src/MixConverter.cpp
         src/ReverseConverter.cpp)
@@ -33,6 +35,8 @@ add_executable(Sound_processor_test tests/tests.cpp
         src/View.cpp
         src/Config.cpp
         src/Processor.cpp
+        src/Context.h 
+        src/Context.cpp 
         src/MuteConverter.cpp
         src/MixConverter.cpp
         src/ReverseConverter.cpp)

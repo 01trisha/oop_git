@@ -1,5 +1,4 @@
-mute 5 6
-mix $2 15 20
-# комментарий
-reverse 25 30
-mute 9 10
+mix $2 30 60
+mix $2 60 90
+reverse 3 20
+mute 90 120

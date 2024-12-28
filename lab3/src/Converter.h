@@ -8,9 +8,10 @@ using namespace std;
 
 class Converter {
 public:
+	typedef vector<string> ConventerContext;
 	virtual ~Converter() = default;
 	virtual bool support(ToolType) = 0;
-	virtual void convert(ifstream& input1, ifstream& input2, ofstream& output, int start, int end) = 0;
+	virtual void convert(ConventerContext _context, ifstream& input, ofstream& output, ConventerContext inputFiles) = 0;
 	virtual void getInfo() = 0;
 
 protected:

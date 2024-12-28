@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/trisha/Desktop/nsu/oop/oop_git/Lab3/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/trisha/Desktop/nsu/oop/oop_git/lab3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

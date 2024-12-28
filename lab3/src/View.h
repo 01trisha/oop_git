@@ -15,13 +15,13 @@ public:
 	bool help() const;
 	string getOutputFile();
 	string getInputFile();
-	vector<string> getMixFiles();
+	vector<string> getInputFiles();
 	string getConfig();
 
 private:
 	bool _help;
 	string _outputFile;
 	string _inputFile;
-	vector<string> _mixFiles;
+	vector<string> _inputFiles;
 	string _config;
 };
