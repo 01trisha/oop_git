@@ -1,5 +1,0 @@
-if(EXISTS "/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test2[1]_tests.cmake")
-  include("/Users/trisha/Desktop/nsu/oop/oop_git/lab1/build/Circularbuffer_test2[1]_tests.cmake")
-else()
-  add_test(Circularbuffer_test2_NOT_BUILT Circularbuffer_test2_NOT_BUILT)
-endif()
