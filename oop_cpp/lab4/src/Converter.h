@@ -37,28 +37,28 @@ float TypeConverter(const string& data){
     }
 }
 
-template<typename T, unsigned N, unsigned Size>
+template<typename Tuple, unsigned N, unsigned Size>
 class TupleConverter{
 public:
-    static void converting(T &converted_tuple, const List& str_vector){
-        std::get<N>(converted_tuple) = TypeConverter<typename std::tuple_element<N, T>::type>(str_vector[N]);
-        TupleConverter<T, N+1, Size>::converting(converted_tuple, str_vector);
+    static void converting(Tuple &converted_tuple, const List& str_vector){
+        std::get<N>(converted_tuple) = TypeConverter<typename std::tuple_element<N, Tuple>::type>(str_vector[N]);
+        TupleConverter<Tuple, N+1, Size>::converting(converted_tuple, str_vector);
     }
 };
 
-template<typename T, unsigned Size>
-class TupleConverter<T, Size, Size>{
+template<typename Tuple, unsigned Size>
+class TupleConverter<Tuple, Size, Size>{
 public:
-    static void converting(T &converted_tuple, const List& str_vector){
-        std::get<Size>(converted_tuple) = TypeConverter<typename std::tuple_element<Size, T>::type>(str_vector[Size]);
+    static void converting(Tuple &converted_tuple, const List& str_vector){
+        std::get<Size>(converted_tuple) = TypeConverter<typename std::tuple_element<Size, Tuple>::type>(str_vector[Size]);
 
     }
 };
 
-template<typename T, unsigned N>
-class TupleConverter<T, N, 0>{
+template<typename Tuple, unsigned N>
+class TupleConverter<Tuple, N, 0>{
 public:
-    static void converting(T &converted_tuple, const List& str_vector){
+    static void converting(Tuple &converted_tuple, const List& str_vector){
 
     }
 };

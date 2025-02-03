@@ -18,7 +18,7 @@ class TuplePrinter {
 template<typename Tuple, unsigned Size>
 class TuplePrinter<Tuple, Size, Size> {
 public:
-    static void print(std::ostream&, const Tuple&) {
+    static void print(std::ostream& out, const Tuple& tuple) {
     }
 };
 

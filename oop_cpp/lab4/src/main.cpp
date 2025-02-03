@@ -21,7 +21,7 @@ int main(){
         }
 
         // for (auto it = parser.begin(); it != parser.end(); ++it){
-        //     const auto& rs = *it;  const tuple<int, string, string>&
+        //     const auto& rs = *it;  //const tuple<int, string, string>&
         //     cout << rs << endl;
         // }
 
@@ -29,5 +29,6 @@ int main(){
         cerr << "Error: " << e.what() << "\n";
     }
 
+    file.close();
     return 0;
 }
