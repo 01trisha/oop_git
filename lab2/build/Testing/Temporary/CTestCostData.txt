@@ -1,4 +1,0 @@
-GameOfLifeTest.CalculatorTest 2 0.00336183
-GameOfLifeTest.ImporterTest 2 0.00179665
-GameOfLifeTest.DumperTest 2 0.00161312
----

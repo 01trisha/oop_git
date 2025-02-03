@@ -1,7 +1,0 @@
-add_test([=[GameOfLifeTest.CalculatorTest]=]  /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/gameoflife_tests [==[--gtest_filter=GameOfLifeTest.CalculatorTest]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[GameOfLifeTest.CalculatorTest]=]  PROPERTIES WORKING_DIRECTORY /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[GameOfLifeTest.ImporterTest]=]  /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/gameoflife_tests [==[--gtest_filter=GameOfLifeTest.ImporterTest]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[GameOfLifeTest.ImporterTest]=]  PROPERTIES WORKING_DIRECTORY /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[GameOfLifeTest.DumperTest]=]  /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build/gameoflife_tests [==[--gtest_filter=GameOfLifeTest.DumperTest]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[GameOfLifeTest.DumperTest]=]  PROPERTIES WORKING_DIRECTORY /Users/trisha/Desktop/nsu/oop/oop_git/lab2/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  gameoflife_tests_TESTS GameOfLifeTest.CalculatorTest GameOfLifeTest.ImporterTest GameOfLifeTest.DumperTest)
