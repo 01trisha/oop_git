@@ -1,6 +1,6 @@
 pract/
 pom.xml
 CSVParser/pom.xml
-.idea/
-.metadata/
+.idea
+.metadata
 .DS_Store
