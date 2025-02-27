@@ -19,7 +19,8 @@ public static void main(String[] args) {
 
         words = readerTxt.readTxt();
         int countWords = words.values().stream().mapToInt(Integer::intValue).sum();
-//        int countWords = 0;
+
+        //        int countWords = 0;
 //        for (int count : words.values()) {
 //            countWords += count;
 //        }
