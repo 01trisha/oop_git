@@ -25,7 +25,7 @@ public static void main(String[] args) {
 //        }
         Map<String, Double> percent = new HashMap<>();
         for(Map.Entry<String, Integer> entry : words.entrySet()) {
-            double percentage = (double) entry.getValue() / countWords;
+            double percentage = (double) entry.getValue() / countWords * 100;
             percent.put(entry.getKey(), percentage);
         }
 

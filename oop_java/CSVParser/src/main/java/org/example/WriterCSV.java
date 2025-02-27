@@ -13,7 +13,7 @@ public class WriterCSV {
                 String key = entry.getKey();
                 int value = entry.getValue();
                 double percentage = percentMap.get(key);
-                writer.write(key + ';' + value + ';' + percentage + '\n');
+                writer.write(String.format("%s;%d;%.2f\n", key, value, percentage));
             }
         }catch (IOException e) {
             System.err.println("Error writing to file: " + e.getMessage());
