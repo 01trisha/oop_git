@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="oop_java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/oop_java_jar</output-path>
+    <root id="archive" name="oop_java.jar">
+      <element id="module-output" name="oop_java" />
+    </root>
+  </artifact>
+</component>
