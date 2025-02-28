@@ -7,7 +7,6 @@ import java.util.Map;
 
 public class Main {
 public static void main(String[] args) {
-
     try {
         if (args.length != 1) {
             throw new Exception("Invalid number of arguments, usage: java -jar main.jar <file>");
@@ -15,15 +14,16 @@ public static void main(String[] args) {
 
         String path = args[0];
         ReaderTxt readerTxt = new ReaderTxt(path);
-        HashMap<String, Integer> words = new HashMap<>();
+        HashMap<String, Integer> words;
 
         words = readerTxt.readTxt();
         int countWords = words.values().stream().mapToInt(Integer::intValue).sum();
 
-        //        int countWords = 0;
+//        int countWords = 0;
 //        for (int count : words.values()) {
 //            countWords += count;
 //        }
+
         Map<String, Double> percent = new HashMap<>();
         for(Map.Entry<String, Integer> entry : words.entrySet()) {
             double percentage = (double) entry.getValue() / countWords * 100;

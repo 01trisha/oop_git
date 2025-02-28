@@ -13,7 +13,7 @@ public class ReaderTxt {
         path_to_file = path;
     }
 
-    public HashMap<String, Integer> readTxt() throws IOException{
+    public HashMap<String, Integer> readTxt() {
         try(Reader input = new InputStreamReader(new FileInputStream(path_to_file))){
 
             HashMap<String, Integer> wordCountMap = new HashMap<>();
@@ -39,9 +39,8 @@ public class ReaderTxt {
 
             }
             return wordCountMap;
-        }catch(IOException e){
-            System.err.println("Error reading file: " + path_to_file);
-            return new HashMap<>();
+        }catch(IOException e) {
+            throw new RuntimeException("Error reading file", e);
         }
     }
 }

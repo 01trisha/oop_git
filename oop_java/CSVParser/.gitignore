@@ -13,7 +13,7 @@ pom.xml
 *.ipr
 .idea/
 src/main/resources
-src/main/input.txt
+src/main/resources/input.txt
 output.csv
 src/target/
 ### Eclipse ###

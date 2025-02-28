@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class WriterCSV {
 
-    public void writeToCSV(List<Map.Entry<String, Integer>> sortedList, Map<String, Double> percentMap) throws IOException {
+    public void writeToCSV(List<Map.Entry<String, Integer>> sortedList, Map<String, Double> percentMap){
         try(Writer writer = new OutputStreamWriter(new FileOutputStream("output.csv"))) {
             writer.write("Слово; Частота; Частота в %\n");
             for (Map.Entry<String, Integer> entry : sortedList) {
@@ -16,7 +16,7 @@ public class WriterCSV {
                 writer.write(String.format("%s;%d;%.2f\n", key, value, percentage));
             }
         }catch (IOException e) {
-            System.err.println("Error writing to file: " + e.getMessage());
+            throw new RuntimeException("Error writing to file", e);
         }
     }
 }
