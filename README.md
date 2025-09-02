@@ -15,4 +15,4 @@
 ## Лабораторные работы на Java:
 - **[CSVParserJava](https://github.com/01trisha/oop/blob/main/CSVParserJava)** -контейнеры, IO потоки, классы Object и String
 - **[Stack_Calculator](https://github.com/01trisha/oop/blob/main/Stack_Calculator)** - фабричный метод, JUnit5, Mockito, Logj4
-- 
+- **[Minesweeper](https://github.com/01trisha/MVC-Minesweeper)** - шаблон MVC, Swing
